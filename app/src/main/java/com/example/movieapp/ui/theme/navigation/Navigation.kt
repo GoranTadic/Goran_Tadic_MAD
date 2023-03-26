@@ -13,7 +13,7 @@ fun MovieNavigation() {
 
     NavHost(navController = navController, startDestination = "home") {
         composable("home") {
-            HomeScreen()
+            HomeScreen() 
         }
     }
 }
